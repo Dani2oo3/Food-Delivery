@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.10.1",
+    "@nextui-org/react": "^2.3.6",
+    "next-themes": "^0.3.0",
+    "react-hot-toast": "^2.4.1"
+  }
+}
