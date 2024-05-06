@@ -33,7 +33,7 @@ import {
   
         const expirationTime = decoded?.exp;
   
-        if (expirationTime * 1000 < Date.now()) {
+        if (expirationTime < Date.now()) {
           await this.updateAccessToken(req);
         }
       }

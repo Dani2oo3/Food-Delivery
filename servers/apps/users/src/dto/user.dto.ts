@@ -65,3 +65,4 @@ export class ResetPasswordDto {
   @IsNotEmpty({ message: 'Activation Token is required.' })
   activationToken: string;
 }
+
