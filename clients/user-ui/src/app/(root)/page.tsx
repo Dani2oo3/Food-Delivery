@@ -4,9 +4,9 @@ import HomeScreen from "@/src/screens/HomeScreen";
 const Page = () => {
   return (
     <div>
-      <HomeScreen />
+        <HomeScreen />
     </div>
-  )
-}
+  );
+};
 
-export default Page
+export default Page;

@@ -18,3 +18,4 @@ export const RESET_PASSWORD: DocumentNode = gql`
     }
   }
 `;
+  
